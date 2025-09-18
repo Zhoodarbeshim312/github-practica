@@ -1,0 +1,39 @@
+#hero {
+  padding: 50px 0;
+  .container {
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img{
+        border-radius: 20px;
+      }
+      &--text {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h1 {
+          font-size: 40px;
+        }
+        p {
+          font-size: 20px;
+        }
+        &__btn {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          h3 {
+            font-size: 32px;
+          }
+          button{
+            width: 130px;
+            height: 35px;
+            border-radius: 10px;
+            background: green;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
